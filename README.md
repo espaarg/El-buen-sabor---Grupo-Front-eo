@@ -5,13 +5,13 @@ El Buen Sabor es una aplicación tanto web como para dispositivos móviles que p
 ## Autores
 
 - [Olea Facundo](https://github.com/Facustriker)
-- [Yacante Pablo]()
+- [Yacante Pablo](https://github.com/pabloyacante)
 - [Linares Agustina]()
 - [Avallone Fabrizio]()
-- [Velasco(?) Victoria]()
-- [Lencioni(?) Valentina]()
+- [Velasco Victoria]()
+- [Lencioni Valentina]()
 - [Jadur Dolores]()
-- [(?) Lucas]()
+- [Ortiz Lucas](https://github.com/espaarg)
 
 ## Vistas/Wireframes
 

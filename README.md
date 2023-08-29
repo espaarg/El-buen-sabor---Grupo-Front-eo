@@ -1,6 +1,11 @@
-# El buen sabor -- Front-eo
 
-El Buen Sabor es una aplicación tanto web como para dispositivos móviles que permite pedir comida rápida de una manera fácil y cómoda. 
+
+# El buen sabor -- Front-eo!
+
+
+El Buen Sabor es una aplicación tanto web como para dispositivos móviles que permite pedir comida rápida de una manera fácil y cómoda que ofrece a sus clientes una amplia variedad de bebidas y de comidas de fabricación propia. Posee un horario de atención de lunes a domingos de 20:00 a 12:00, y de sábados y domingos de 11:00 a 15:00. Los clientes tienen a disposición un menú que describe cada una de las comidas, el nombre, los ingredientes y el precio, además, pueden realizan sus pedidos en el mostrador del local mediante una PC o pueden hacerlo en forma remota desde su casa o su celular personal.
+
+**Público objetivo:** (completar)
 
 ## Autores
 

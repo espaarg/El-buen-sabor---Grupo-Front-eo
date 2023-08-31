@@ -21,6 +21,9 @@ El Buen Sabor es una aplicación tanto web como para dispositivos móviles que p
 
 Las vistas/wireframes de las distintas pantallas fueron creadas con Figma y se pueden ver desde [aquí](https://www.figma.com/file/MnjdLVlMtSvFxHHVVCcLZf/Front-eo---El-buen-sabor?type=design&node-id=0-1&mode=design&t=UaYuCtkeuam3DJYo-0)
 
+
+El documento con todas las vistas esta subido a un sitio externo a GitHub debido al peso del mismo, se puede ver desde [este enlace](https://docs.google.com/document/d/1Bl1EcXz_RNrof0mIbGTdM1aoCmuUJCG2BU-PQOvuNH8/edit#heading=h.f04trkdhw0w4)
+
 ## Tecnologías utilizadas
 
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>

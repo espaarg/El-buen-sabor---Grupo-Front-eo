@@ -1,0 +1,94 @@
+body{
+    background-color: #FFF3DC;
+    font-family: sans-serif;
+    margin: 0px;
+}
+/*-----------------------------Header----------------------------*/
+header {
+    display: flex;
+    min-height: 75px;
+    background-color: #D55039;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    height: 75px;
+    padding-left: 96px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav{
+    padding-right: 96px;
+}
+nav a:hover{
+    color: orangered;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    .logo img{
+        padding-right: 110px;
+    }
+    nav {
+        padding-left: 100px;
+    }
+}
+
+/*--------------------------footer-----------------------------*/
+footer{
+    min-height: 75px;
+    background-color: #D55039;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.descarg{
+    display: flex;
+    
+}
+#Playstore{
+    height: 55px;
+    width: 105px;
+    padding-left: 96px;
+}
+#Appstore{
+    height: 55px;
+    width: 105px;
+}
+#ayuda{
+    justify-content: center;
+}
+
+
+/*--------------------------imagen con desc al lado-----------------------------*/
+
+.fondo {
+    background-image: url("https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo/blob/main/Assets/Fondo.png?raw=true");
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+
+}
+.Hamburguesafondo{
+    height: 288px;
+    width: 370px;
+}
+.hambytext{
+    display: flex;
+    background-position: center top;
+}
+#cat1 a{
+    padding-left: 60px;
+}

@@ -1,1 +1,44 @@
-bla bla bla
+<div class="catalogo" id="catalogo1">
+        <div class="contenedorDeContenedores" >
+            <a class="clickHamburguesa" href="https://www.mcdonalds.com.ar/">
+                <div class="contenedor1">
+                    <img src="https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo/blob/main/Assets/Hamburguesa%20de%20fondo.png?raw=true" alt="Hamburguesa">
+                    <div class="contenedor2">
+                        <h2>SABOR TASTY</h2>
+                        <p>Carne, cheddar, cebolla, lechuga, tomate, pepinillos</p>
+                        <h3>$3000</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="clickHamburguesa" href="https://www.mcdonalds.com.ar/">
+                <div class="contenedor1">
+                    <img src="https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo/blob/main/Assets/Hamburguesa%20de%20fondo.png?raw=true" alt="Hamburguesa">
+                    <div class="contenedor2">
+                        <h2>SABOR TASTY</h2>
+                        <p>Carne, cheddar, cebolla, lechuga, tomate, pepinillos</p>
+                        <h3>$3000</h3>
+                    </div>
+                </div>
+            </a>
+        <a class="clickHamburguesa" href="https://www.mcdonalds.com.ar/">
+            <div class="contenedor1">
+                <img src="https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo/blob/main/Assets/Hamburguesa%20de%20fondo.png?raw=true" alt="Hamburguesa">
+                <div class="contenedor2">
+                    <h2>SABOR TASTY</h2>
+                    <p>Carne, cheddar, cebolla, lechuga, tomate, pepinillos</p>
+                    <h3>$3000</h3>
+                </div>
+            </div>
+        </a>
+        <a class="clickHamburguesa" href="https://www.mcdonalds.com.ar/">
+            <div class="contenedor1">
+                <img src="https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo/blob/main/Assets/Hamburguesa%20de%20fondo.png?raw=true" alt="Hamburguesa">
+                <div class="contenedor2">
+                    <h2>SABOR TASTY</h2>
+                    <p>Carne, cheddar, cebolla, lechuga, tomate, pepinillos</p>
+                    <h3>$3000</h3>
+                </div>
+            </div>
+        </a>
+        </div>
+    </div>

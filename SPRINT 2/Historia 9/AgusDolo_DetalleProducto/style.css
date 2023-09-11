@@ -1,0 +1,940 @@
+
+body{
+    background-color: #FFF3DC;
+    font-family: sans-serif;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.lineaBordoDivisoria{                   /* LINEA BORDO QUE SEPARA LAS CATEGORIAS (HAMBURGUESAS, PIZZAS) DE */
+    height: 15px;                       /* LA INFORMACION (ATENCION AL CLIENTE, ENVIOS, RETIRO, ETC.) */
+    background-color: #953A3A; 
+}
+
+/* -------------------------------------ESTILOS Detail Prod Medio--------------------------------------*/
+.paddingDeImagen{
+    display: flex;
+    width: 300px;
+    height: 330px;
+    
+}
+.imagenHamburguesaDetalle{
+    display: flex;
+    border-radius:30px;
+    justify-content: left;
+    
+}
+
+#contenedorDetalleProd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+#contenedorTextoDetalleProd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#tituloDetalleProd{
+    display: flex;
+    font-style: inherit;
+    font-size: 60;
+    font-weight: 800;
+    justify-content: center;
+    color:#953A3A;
+    padding-top: 40px;
+}
+
+#textoDetalleProd{
+    font-style: inherit;
+    font-size: 16px;
+    color:#953A3A;
+}
+
+.botonAgregarCarrito{
+    background-color: #D55039;
+    color:#FFF3DC;
+    border: none;
+    padding: 10px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.107);
+}
+.botonAgregarCarrito:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+
+#search-input{
+    background-color:white;
+    color:#D55039;
+    border: none;
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+#agregarCarrito {
+    display: flex;
+    gap: 50px;
+    padding-left: 70px;
+    
+}
+
+#botonesTachitoMas {
+    display: flex;
+    background-color: #ffffffd0;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 100px;
+
+}
+.botonSignoMas {
+    background-color: #ffffffd0;
+    color: #b0acac;
+    border: none;
+    padding: 10px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.107);
+}
+.botonSignoMas:hover{
+    background-color: #D55039;
+    color: #FFF3DC;
+    
+}
+
+.botonTachito {
+    background-color: #ffffffd0;
+    color: #b0acac;
+    border: none;
+    padding: 10px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.107);
+}
+
+.botonTachito:hover {
+    background-color: #b3b3b3;
+    color: #FFF3DC;
+}
+/* ------------------------------------------ESTILOS FOOTER-------------------------------------------*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #D55039;
+    flex-direction: column;
+}
+
+.lineaBordoFooter{
+    height: 15px;
+    background-color: #953A3A;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.lineaNegraFooter{
+    height: 3px;
+    background-color: #00000038;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button {
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    text-align: center;
+    font-style: inherit;
+    font-size: 25px;
+  }
+
+  .buttonAb{
+    font-size: 18px;
+    margin: 15px 32px;
+    cursor: pointer;
+  }
+
+  .buttonUp{
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .buttonApp{
+    font-size: 20px !important;
+    cursor: pointer;
+  }
+
+.button:hover{
+    color: white;
+    text-decoration-line: underline;
+  }
+
+.texto{
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    font-style: inherit;
+    
+}
+
+#prodRelacionados {
+     display: flex;
+     flex-direction: column;
+}
+
+/* ---------------------PARTE 1 (COLUMNA APPS, LOGO Y COLUMNA REDES SOCIALES)-------------------------------------------*/
+
+.parte1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 96px;
+    padding-right: 96px;
+    align-items: center;
+}
+
+
+/* ------------------------------------------CONTENEDOR APP-------------------------------------------*/
+
+#APPcontainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#colTextoApp{
+    display: flex;
+    flex-direction: column;
+    color: #FFF3DC;
+    font-size: 14px;
+    font-style: inherit;
+}
+
+#Apps{
+    display: flex;
+}
+
+.imagePlay{
+    width: 90px;
+    height: 35px;
+}
+
+.imageApple{
+    width: 90px;
+    height: 35px;
+}
+
+/* ------------------------------------------CONTENEDOR LOGO-------------------------------------------*/
+
+#logoBSFooter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* ------------------------------------------CONTENEDOR REDES SOCIALES-------------------------------------------*/
+
+#socialContenedor{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#imagenNombreContenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+#instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageInsta{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.imageFace{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* -----------------------------------------PARTE 2 (BOTONES INFERIORES)-------------------------------------------*/
+
+.parte2{
+    margin-bottom: 1em;
+}
+
+#abajo{
+    color: #FFF3DC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 66px;
+    color: #FFF3DC;
+}
+
+/*------------------------------------------------------------ ESTILOS HEADER ---------------------------------------------------------------------*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D55039;
+    min-height: 75px;
+    padding: 10px;
+    padding-right: 96px;
+  
+}
+
+.buttonIngresar {
+    min-height: 50px;
+    min-width: 110px;
+    background-color:#FFF3DC;
+    color: #D55039;
+    border-radius: 10px;
+    border-color: #D55039;
+    border-width: 3px;
+}
+
+.buttonIngresar:hover{
+    background-color: #953A3A;
+    color: #FFF3DC;
+}
+
+.barraBuscar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonLupa{
+    border: none;
+    background: none;
+}
+
+.imagenLupa{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.cajaBuscar{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 80px;
+    text-align: left;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.lineaBordo{
+    display: flex;
+    background-color: #953A3A;
+    height: 12px;
+    padding: 1px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 96px;
+}
+
+#logoBSArriba{
+    width:110px;
+    min-height: 110px;
+}
+
+#arriba{                    /*BOTONES SUPERIORES DE HOME, PRODUCTOS Y CONTACTOS*/
+    color: #FFF3DC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 66px;
+}
+
+.buttonA{
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    text-align: center;
+    font-style: inherit;
+    font-size: 25px;
+  }
+
+.buttonA:hover{
+    color: white;
+    text-decoration-line: underline;
+  }
+
+@media (max-width:700px){       /*CUANDO LA PANTALLA SEA MENOR A 700PX LLAMA A MEDIA QUERY Y HACE:*/
+    .header{
+        flex-direction: column;
+    }
+
+    .parte1{
+        flex-direction: column;
+    }
+
+    #arriba{
+        padding: 10px;
+    }
+
+    #logo{
+        padding-left: 10px;
+    }
+    .contenedorDetalleProd {
+        flex-direction: column;
+        gap: 90px;
+
+    }
+    .textoDetalleProd {
+        flex-direction: column;
+    }
+    #contenedorTextoDetalleProd {
+        flex-direction: column;   
+    }
+    
+    #prodRelacionados {
+         flex-direction: column;
+    }
+
+}
+
+
+/* ----------------ESTILOS IMAGENES HAMBURGUESAS, PIZZAS, PAPAS FRITAS Y BEBIDAS.---------------------------------*/
+
+
+
+
+#contenedorImagenesComida{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 40px;
+}
+
+/* ------------------------------------------HAMBURGUESA-------------------------------------------*/
+
+#botonIconoHamburguesa{
+    border: none;
+    background-color:#D55039;
+    border-radius: 12px;
+    width: 260px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    transform: .3s ease all;
+}
+
+#botonIconoHamburguesa:hover{
+    background-color: #953A3A;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+
+#botonIconoHamburguesa::after{
+    background: #E9E6E6;
+    width: 80%;
+    height: 80%;
+    content:"";
+    border-radius: 100px;
+}
+
+#botonIconoHamburguesa:hover::after{
+    position: absolute;
+    z-index: 1;
+    left:15 px;
+    top: 5px;
+    right:25px;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+
+#textoIconoHamburguesa{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-style: inherit;
+    font-size: 25px;
+    color: #FFF3DC;
+    font-weight:900;
+}
+
+#imagenHamburguesaDIV{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.imagenHamburguesa{
+    width: 150px;
+    height: 180px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ------------------------------------------PIZZA-------------------------------------------*/
+
+#botonIconoPizza{
+    border: none;
+    background-color:#D55039;
+    border-radius: 12px;
+    width: 260px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#botonIconoPizza:hover{
+    background-color: #953A3A;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+
+#botonIconoPizza::after{
+    background: #E9E6E6;
+    width: 80%;
+    height: 80%;
+    content:"";
+    border-radius: 100px;
+}
+
+#botonIconoPizza:hover::after{
+    position: absolute;
+    z-index: 1;
+    left:15 px;
+    top: 5px;
+    right:25px;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+
+#textoIconoPizza{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-style: inherit;
+    font-size: 25px;
+    color: #FFF3DC;
+    font-weight:900;
+    justify-content: center;
+}
+
+#imagenPizzaDIV{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.imagenPizza{
+    width: 170px;
+    height: 180px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ------------------------------------------PAPAS FRITAS-------------------------------------------*/
+
+#botonIconoPapas{
+    border: none;
+    background-color:#D55039;
+    border-radius: 12px;
+    width: 260px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#botonIconoPapas:hover{
+    background-color: #953A3A;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+
+#botonIconoPapas::after{
+    background: #E9E6E6;
+    width: 80%;
+    height: 80%;
+    content:"";
+    border-radius: 100px;
+}
+
+#botonIconoPapas:hover::after{
+    position: absolute;
+    z-index: 1;
+    left:15 px;
+    top: 5px;
+    right:25px;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+
+#textoIconoPapas{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-style: inherit;
+    font-size: 25px;
+    color: #FFF3DC;
+    font-weight:900;
+    justify-content: center;
+}
+
+#imagenPapasDIV{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.imagenPapas{
+    width: 100px;
+    height: 180px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ------------------------------------------BEBIDAS-------------------------------------------*/
+
+#botonIconoBebidas{
+    border: none;
+    background-color:#D55039;
+    border-radius: 12px;
+    width: 260px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#botonIconoBebidas:hover{
+    background-color: #953A3A;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+
+#botonIconoBebidas::after{
+    background: #E9E6E6;
+    width: 80%;
+    height: 80%;
+    content:"";
+    border-radius: 100px;
+}
+
+#botonIconoBebidas:hover::after{
+    position: absolute;
+    z-index: 1;
+    left:15 px;
+    top: 5px;
+    right:25px;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+
+#textoIconoBebidas{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-style: inherit;
+    font-size: 25px;
+    color: #FFF3DC;
+    font-weight:900;
+    justify-content: center;
+}
+
+#imagenBebidasDIV{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.imagenBebidas{
+    width: 120px;
+    height: 180px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ------------------------------------------ Catalogo-------------------------------------------*/
+
+#catalogo1{
+    display: flex;
+    padding-top: 120px;
+    
+}
+
+#catalogo2{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 120px;
+}
+
+.contenedorDeContenedores{
+    display: flex;
+    gap: 20px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 120px;
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    background-color:#D55039;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.227);
+    
+}
+.contenedor1 img{
+    width: 200px;
+    height: 200px;
+
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.contenedor2 p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 8px;
+}
+
+.contenedor2 h3{
+    margin-block-start: 5px;
+    margin-block-end: 8px;
+}
+
+.clickHamburguesa{
+    color: #373737;
+    text-decoration: none;
+}
+
+/* ----------------ESTILOS IMAGENES ENVIOS DOMICILIO, ATENCION AL CLIENTE, RETIRO Y CONTACTANOS---------------------------*/
+
+#contenedorImagenesInformacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+/* ------------------------------------------ENVIOS A DOMICILIO-------------------------------------------*/
+
+#contenedorEnvioDomicilio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenedorIconoDomicilio{
+    display: flex;
+    justify-content: center;
+}
+
+#IconoEnvioDomicilio{
+    background-color: #D55039;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenEnvioDomicilio{
+    display: flex;
+    padding-top: 23px;
+    width: 75px;
+    height: 60px;
+}
+
+#TituloEnvioDomicilio{
+    display: flex;
+    font-style: inherit;
+    font-size: 18px;
+    font-weight: 800;
+    justify-content: center;
+    color:#953A3A;
+}
+
+#textoEnvioDomicilio{
+    font-style: inherit;
+    font-size: 11px;
+    color:#953A3A;
+}
+
+/* ------------------------------------------ATENCION AL CLIENTE-------------------------------------------*/
+
+#contenedorAtencionCliente{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenedorIconoAtencionCliente{
+    display: flex;
+    justify-content: center;
+}
+
+#IconoAtencionCliente{
+    background-color: #D55039;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenAtencionCliente{
+    display: flex;
+    padding-top: 22px;
+    width: 75px;
+    height: 60px;
+}
+
+#TituloAtencionCliente{
+    display: flex;
+    font-style: inherit;
+    font-size: 18px;
+    font-weight: 800;
+    justify-content: center;
+    color:#953A3A;
+}
+
+#textoAtencionCliente{
+    font-style: inherit;
+    font-size: 11px;
+    color:#953A3A;
+}
+
+/* ------------------------------------------RETIRO EN CIUDAD-------------------------------------------*/
+
+#contenedorRetiroCiudad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenedorIconoRetiroCiudad{
+    display: flex;
+    justify-content: center;
+}
+
+#IconoRetiroCiudad{
+    background-color: #D55039;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenRetiroCiudad{
+    display: flex;
+    padding-top: 23px;
+    width: 75px;
+    height: 60px;
+}
+
+#TituloRetiroCiudad{
+    display: flex;
+    font-style: inherit;
+    font-size: 18px;
+    font-weight: 800;
+    justify-content: center;
+    color:#953A3A;
+}
+
+#textoRetiroCiudad{
+    font-style: inherit;
+    font-size: 11px;
+    color:#953A3A;
+}
+
+/* ------------------------------------------CONTACTANOS-------------------------------------------*/
+
+#contenedorContactanos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenedorIconoContactanos{
+    display: flex;
+    justify-content: center;
+}
+
+#IconoContactanos{
+    background-color: #D55039;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenContactanos{
+    display: flex;
+    padding-top: 18px;
+    width: 80px;
+    height: 70px;
+}
+
+#TituloContactanos{
+    display: flex;
+    font-style: inherit;
+    font-size: 18px;
+    font-weight: 800;
+    justify-content: center;
+    color:#953A3A;
+}
+
+#textoContactanos{
+    font-style: inherit;
+    font-size: 11px;
+    color:#953A3A;
+}

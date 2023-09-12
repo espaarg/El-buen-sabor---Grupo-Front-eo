@@ -12,7 +12,7 @@
 10) Busqueda de productos
 11) Carrito de compras
 12) Confirmacion del pedido
-13) Historial de pedidos  --LA ESTOY HACIENDO YO FACU ---
+13) Historial de pedidos  --TERMINADA--
 14) Vista y recepcion de pedidos
 15) Administracion de estado, cobro y entrega de pedidos
 16) Entrega de pedidos Delivery

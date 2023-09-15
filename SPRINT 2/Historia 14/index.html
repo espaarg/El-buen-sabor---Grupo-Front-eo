@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recepcion de pedidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>        <!--Header-->
+        <div class="header">
+                <a id="logo" href="http://127.0.0.1:5500/MAIN%20PAGE/index.html"> <!--Logo-->
+                    <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logoPNG.png" 
+                    id="logoBSArriba" alt="logoBuenSabor">
+                </a>
+            <div> <!--Botones informacion superiores-->
+                <div id="arriba">
+                    <button class="buttonA">Cocinero</button>
+                </div>
+            </div>
+            <div id="contenedorPerfilCarrito">   <!--Contenedor imagen personita y texto 'Mi perfil'-->
+                <div id="contenedorPerfil">     
+                    <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/personitaPerfil.png" 
+                    id="personitaPerfilImagen">         <!--Imagen en si-->
+                    <button id="botonMiPerfil">Mi perfil</button>   <!--Texto en si-->
+                </div>
+            </div>
+        </div>
+        <div class="lineaBordo"></div> <!--Linea bordo debajo del header-->
+    </header>
+    <section>   <!--SECCION SUPERIOR SIN INCLUIR LA TABLA-->
+        <div id="contenedorFlechaBarraBusqueda">      <!--Contenedor que tiene la flechita para volver y la barra de busqueda-->
+            <a href="">
+                <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/botonVolverHistoria14.jpg" 
+                alt="btonVolver" id="imagenFlechitaVolver">
+            </a>
+            <button id="botonContenedorBarraBusquedaLupa">  <!--Contenedor que tiene la barra de busqueda-->
+                <input type="text" id="barraBusqueda">
+                <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/imagenLupaHistoria14.jpg" 
+                alt="" id="imagenLupa">
+            </button>
+        </div>
+        <div id="contenedorExteriorEstado"> <!--Contenedor que sirve para ubicar los elementos a la izquierda-->
+            <div id="contenedorEstado">     <!--Contenedor que tiene el texto y el boton gris-->
+                <p id="textoEstado">Estado:</p>
+                <button id="botonEstado">
+                    Todos
+                    <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/flechitaHaciaAbajoHistoria14.png" 
+                    alt="" id="flechitaHaciaAbajo">
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>   <!--TODA LA TABLA EN SI-->
+        <div id="contenedorCentroPantalla">       <!--Contenedor que permite ubicar la tabla al medio de la pantalla-->
+            <div id="contenedorTablaTexto"> <!--Contenedor que incluye el texto 'Mis pedidos', el boton 'Volver' y la tabla en si-->
+                <div id="contenedorTextoPedidos">  <!--Contenedor solo del texto 'Mis pedidos'-->
+                    <h1>Mis pedidos</h1>    
+                </div>
+                <div id="tablaPedidosCliente">       <!--La tabla completa-->
+                    <div class="columnaTitulosCliente">     <!--Seccion 'Nro de pedido'-->
+                        <div class="titulosCliente nroPedido">
+                            <p>Nro de pedido</p>
+                        </div>
+                        <div class="nroPedido">
+                            <p>23467</p>
+                        </div>
+                        <div class="nroPedido">
+                            <p>23467</p>
+                        </div>
+                        <div class="nroPedido">
+                            <p>23467</p>
+                        </div>
+                        <div class="nroPedido">
+                            <p>23467</p>
+                        </div>
+                        <div class="nroPedido">
+                            <p>23467</p>
+                        </div>
+                        <div class="nroPedido">
+                            <p>23467</p>
+                        </div>
+                        <div class="nroPedido">
+                            <p>23467</p>
+                        </div>
+                        <div class="nroPedido">
+                            <p>23467</p>
+                        </div>
+                    </div>
+                    <div class="columnaTitulosCliente">     <!--Seccion 'Fecha y Hora'-->
+                        <div class="titulosCliente"> 
+                            <p>Fecha y hora</p>
+                        </div>
+                        <div>
+                            <p>23/08/2023 - 21:04</p>
+                        </div>
+                        <div>
+                            <p>23/08/2023 - 21:04</p>
+                        </div>
+                        <div>
+                            <p>23/08/2023 - 21:04</p>
+                        </div>
+                        <div>
+                            <p>23/08/2023 - 21:04</p>
+                        </div>
+                        <div>
+                            <p>23/08/2023 - 21:04</p>
+                        </div>
+                        <div>
+                            <p>23/08/2023 - 21:04</p>
+                        </div>
+                        <div>
+                            <p>23/08/2023 - 21:04</p>
+                        </div>
+                        <div>
+                            <p>23/08/2023 - 21:04</p>
+                        </div>
+                    </div>
+                    <div class="columnaTitulosCliente">     <!--Seccion 'Tipo Entrega'-->
+                        <div class="titulosCliente">
+                            <p>Tipo entrega</p>
+                        </div>
+                        <div>
+                            <p>A domicilio</p>
+                        </div>
+                        <div>
+                            <p>A domicilio</p>
+                        </div>
+                        <div>
+                            <p>A domicilio</p>
+                        </div>
+                        <div>
+                            <p>Retiro en local</p>
+                        </div>
+                        <div>
+                            <p>A domicilio</p>
+                        </div>
+                        <div>
+                            <p>Retiro en local</p>
+                        </div>
+                        <div>
+                            <p>Retiro en local</p>
+                        </div>
+                        <div>
+                            <p>Retiro en local</p>
+                        </div>
+                    </div>
+                    <div class="columnaTitulosCliente">     <!--Seccion 'Metodo de pago'-->
+                        <div class="titulosCliente">
+                            <p>Metodo de pago</p>
+                        </div>
+                        <div>
+                            <p>Efectivo</p>
+                        </div>
+                        <div>
+                            <p>Tarjeta debito</p>
+                        </div>
+                        <div>
+                            <p>Tarjeta credito</p>
+                        </div>
+                        <div>
+                            <p>Efectivo</p>
+                        </div>
+                        <div>
+                            <p>Efectivo</p>
+                        </div>
+                        <div>
+                            <p>Tarjeta debito</p>
+                        </div>
+                        <div>
+                            <p>Tarjeta credito</p>
+                        </div>
+                        <div>
+                            <p>Efectivo</p>
+                        </div>
+                    </div>
+                    <div class="columnaTitulosCliente">     <!--Seccion 'Pagado'-->
+                        <div class="titulosCliente">
+                            <p>Pagado</p>
+                        </div>
+                        <div>
+                            <p>Si</p>
+                        </div>
+                        <div>
+                            <p>Si</p>
+                        </div>
+                        <div>
+                            <p>Si</p>
+                        </div>
+                        <div>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p>Si</p>
+                        </div>
+                        <div>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p>Si</p>
+                        </div>
+                        <div>
+                            <p>No</p>
+                        </div>
+                    </div>
+                    <div class="columnaTitulosCliente">     <!--Seccion 'Estado'-->
+                        <div class="titulosCliente">
+                            <p>Estado</p>
+                        </div>
+                        <div>
+                            <p>Listo para entrega</p>
+                        </div>
+                        <div>
+                            <p>Confirmado</p>
+                        </div>
+                        <div>
+                            <p>En camino</p>
+                        </div>
+                        <div>
+                            <p>A confirmar</p>
+                        </div>
+                        <div>
+                            <p>Entregado</p>
+                        </div>
+                        <div>
+                            <p>A confirmar</p>
+                        </div>
+                        <div>
+                            <p>Entregado</p>
+                        </div>
+                        <div>
+                            <p>A confirmar</p>
+                        </div>
+                    </div>
+                    <div class="columnaTitulosCliente">     <!--Seccion 'Detalle'-->
+                        <div class="titulosCliente">
+                            <p>Detalle</p>
+                        </div>
+                        <div id="contenedorBotonesTablaClienteDetalle">
+                            <a href="">
+                                <button class="botonTablaCliente">Ver detalle</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaClienteDetalle">
+                            <a href="">
+                                <button class="botonTablaCliente">Ver detalle</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaClienteDetalle">
+                            <a href="">
+                                <button class="botonTablaCliente">Ver detalle</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaClienteDetalle">
+                            <a href="">
+                                <button class="botonTablaCliente">Ver detalle</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaClienteDetalle">
+                            <a href="">
+                                <button class="botonTablaCliente">Ver detalle</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaClienteDetalle">
+                            <a href="">
+                                <button class="botonTablaCliente">Ver detalle</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaClienteDetalle">
+                            <a href="">
+                                <button class="botonTablaCliente">Ver detalle</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaClienteDetalle">
+                            <a href="">
+                                <button class="botonTablaCliente">Ver detalle</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="columnaTitulosCliente">     <!--Seccion 'Acciones'-->
+                        <div class="titulosCliente">
+                            <p>Acciones</p>
+                        </div>
+                        <div id="contenedorBotonesTablaCliente">    <!--El conjunto de botones-->
+                                <button class="botonTablaClienteInvisible"></button>
+                                <button class="botonTablaClienteInvisible"></button>
+                            <a href="">
+                                <button class="botonTablaCliente">Ver factura</button>
+                            </a>
+                            <a href="">
+                                <button class="botonTablaCliente">Anular pedido</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaCliente">
+                                <button class="botonTablaClienteInvisible"></button>
+                            <a href="">
+                                <button class="botonTablaCliente">Enviar delivery</button>
+                            </a>
+                            <a href="">
+                                <button class="botonTablaCliente">Ver factura</button>
+                            </a>
+                            <a href="">
+                                <button class="botonTablaCliente">Anular pedido</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaCliente">
+                                <button class="botonTablaClienteInvisible"></button>
+                                <button class="botonTablaClienteInvisible"></button>
+                            <a href="">
+                                <button class="botonTablaCliente">Ver factura</button>
+                            </a>
+                            <a href="">
+                                <button class="botonTablaCliente">Anular pedido</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaCliente">
+                            <a href="">
+                                <button class="botonTablaCliente">Pagar pedido</button>
+                            </a>
+                            <a href="">
+                                <button class="botonTablaCliente">Enviar a cocina</button>
+                            </a>
+                                <button class="botonTablaClienteInvisible"></button>
+                            <a href="">
+                                <button class="botonTablaCliente">Anular pedido</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaCliente">
+                                <button class="botonTablaClienteInvisible"></button>
+                                <button class="botonTablaClienteInvisible"></button>
+                            <a href="">
+                                <button class="botonTablaCliente">Ver factura</button>
+                            </a>
+                            <a href="">
+                                <button class="botonTablaCliente">Anular pedido</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaCliente">
+                            <a href="">
+                                <button class="botonTablaCliente">Pagar pedido</button>
+                            </a>
+                            <a href="">
+                                <button class="botonTablaCliente">Enviar a cocina</button>
+                            </a>
+                                <button class="botonTablaClienteInvisible"></button>
+                            <a href="">
+                                <button class="botonTablaCliente">Anular pedido</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaCliente">
+                                <button class="botonTablaClienteInvisible"></button>
+                                <button class="botonTablaClienteInvisible"></button>
+                            <a href="">
+                                <button class="botonTablaCliente">Ver factura</button>
+                            </a>
+                            <a href="">
+                                <button class="botonTablaCliente">Anular pedido</button>
+                            </a>
+                        </div>
+                        <div id="contenedorBotonesTablaCliente">
+                            <a href="">
+                                <button class="botonTablaCliente">Pagar pedido</button>
+                            </a>
+                            <a href="">
+                                <button class="botonTablaCliente">Enviar a cocina</button>
+                            </a>
+                                <button class="botonTablaClienteInvisible"></button>
+                            <a href="">
+                                <button class="botonTablaCliente">Anular pedido</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="contenedorBotonVolver">    <!--Contenedor solo del boton 'Volver'-->
+                    <a href="">
+                        <button id="botonTablaClienteVolver">Volver</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>        <!--Footer-->
+        <div class="lineaNegraFooter"></div> <!--Linea negra semitransparente encima linea bordo-->
+        <div class="lineaBordoFooter"></div> <!--Linea bordo encima del Footer-->
+        <div class="container"> <!--Footer-->
+            <div class="parte1">    <!--Botones Apps, logo y redes sociales-->
+                <div id="APPcontainer">   <!--Contenedor App-->
+                    <div id="colTextoApp"> <!--Descargar APP-->
+                        <a href="https://play.google.com/store/apps/details?id=com.my.cooking.chef.kitchen.craze.fever&hl=es_AR">
+                            <button class="button buttonApp">Descarga la App</button> <br>
+                        </a>
+                        <h5 class="texto">Descarga la App para tu smartphone</h5>
+                    </div>
+                    <div id="Apps"> <!--Imagenes APP-->
+                        <a href="https://play.google.com/store/apps/details?id=com.my.cooking.chef.kitchen.craze.fever&hl=es_AR">
+                            <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logoPlay.png" 
+                            class="imagePlay">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.my.cooking.chef.kitchen.craze.fever&hl=es_AR">
+                            <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logoApple.png" 
+                            class="imageApple">
+                        </a>
+                    </div>
+                </div>
+                <div id="logoBSFooter"> <!--Logo-->
+                    <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logoBS.png" 
+                    style="width:60px; height: 60px;">
+                </div>
+                <div id="socialContenedor"> <!--Contenedor redes sociales-->
+                    <h4 class="texto" id="seguinosEn">Seguinos en:</h4>
+                    <div id="imagenNombreContenedor">
+                        <div id="instagram"> <!--Instagram-->
+                            <a href="https://www.instagram.com/el_buen_sabor/">
+                                <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logo%20Insta.png" 
+                            class="imageInsta">
+                            </a>
+                            <a href="https://www.instagram.com/el_buen_sabor/">
+                                <button class="button buttonUp">Instagram</button>
+                            </a>
+                        </div>
+                        <div id="facebook"> <!--Facebook-->
+                            <a href="https://www.facebook.com/el_buen_sabor/">
+                                <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logo%20Face.png" 
+                                class="imageFace">
+                            </a>
+                            <a href="https://www.facebook.com/el_buen_sabor/">
+                                <button class="button buttonUp">Facebook</button> <br>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>     
+            <div class="parte2"> <!--Botones informacion inferiores-->
+                <div id="abajo">
+                    <a href="https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo">
+                        <button class="button buttonAb">Sobre nosotros</button> 
+                    </a>
+                    <a href="https://buenosaires.gob.ar/jefaturadegabinete/atencion-ciudadana-y-gestion-comunal/defensa-al-consumidor">
+                        <button class="button buttonAb">Ayuda</button>
+                    </a>
+                    <a href="https://www.mcdonalds.com.ar/politica-de-privacidad">
+                        <button class="button buttonAb">Términos y condiciones</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

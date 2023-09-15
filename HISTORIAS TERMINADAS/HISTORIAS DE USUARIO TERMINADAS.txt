@@ -13,8 +13,8 @@
 11) Carrito de compras
 12) Confirmacion del pedido
 13) Historial de pedidos  --TERMINADA--
-14) Vista y recepcion de pedidos
-15) Administracion de estado, cobro y entrega de pedidos
+14) Vista y recepcion de pedidos   --TERMINADA--
+15) Administracion de estado, cobro y entrega de pedidos  --TERMINADA--
 16) Entrega de pedidos Delivery
 17) Vista de pedidos
 18) Generacion de factura

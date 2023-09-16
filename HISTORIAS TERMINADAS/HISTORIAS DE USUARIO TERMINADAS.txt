@@ -2,7 +2,7 @@
 
 1) Registro de un nuevo cliente
 2) Ingreso al sistema como cliente
-3) Actualizacion de datos como cliente
+3) Actualizacion de datos como cliente   --TERMINADA--
 4) Registro de un nuevo empleado
 5) Ingreso al sistema como empleado
 6) Actualizacion de datos como empleado

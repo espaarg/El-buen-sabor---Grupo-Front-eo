@@ -22,7 +22,7 @@
 20) Alta, modificacion y baja de rubros
 21) Alta, modificacion y baja de rubros de productos
 22) Alta, modificacion y baja de productos
-23) Registro de compra de ingrediente
+23) Registro de compra de ingrediente  --TERMINADA--
 24) Control de stock de ingredientes
 25) Ranking de productos
 26) Ranking de clientes

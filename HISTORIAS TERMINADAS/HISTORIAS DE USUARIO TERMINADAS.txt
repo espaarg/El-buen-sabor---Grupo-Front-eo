@@ -15,7 +15,7 @@
 13) Historial de pedidos  --TERMINADA--
 14) Vista y recepcion de pedidos   --TERMINADA--
 15) Administracion de estado, cobro y entrega de pedidos  --TERMINADA--
-16) Entrega de pedidos Delivery (dolo)
+16) Entrega de pedidos Delivery --TERMINADA--
 17) Vista de pedidos (pablo)
 18) Generacion de factura (agus)
 19) Anulacion de factura mediante nota de credito (agus)
